@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Final Programacion III Sobol</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Veterinaria</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Listado Mascotas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="altaPerro.html">Cargar Perro</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <div class="container">
+        <form action="">
+            <h1 class="lead text-center">Formulario de Alta de Perro</h1>
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 colr-lg-6">
+                    <div class="form-group">
+                        <label for="Nombre"></label>
+                        <input type="text" class="form-control" id="txtNombre"
+                            placeholder="Ingrese el nombre de su perro">
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 colr-lg-6">
+                    <div class="form-group">
+                        <label for="Edad"></label>
+                        <input type="text" class="form-control" id="txtEdad" placeholder="Ingrese la edad de su perro">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 colr-lg-6">
+                    <div class="form-group">
+                        <label for="peso"></label>
+                        <input type="text" class="form-control" id="txtPeso" placeholder="Ingrese el peso del perro">
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 colr-lg-6">
+                    <div class="form-group">
+                        <label for="NombreDueno"></label>
+                        <input type="text" class="form-control" id="txtNombreDueno"
+                            placeholder="Ingrese el nombre completo del dueno">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 colr-lg-6">
+                    <div class="form-group">
+                        <label for="telefono"></label>
+                        <input type="text" class="form-control" id="txtTelefono"
+                            placeholder="Ingrese un numero de contacto">
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 colr-lg-6">
+                    <div class="form-group">
+                        <label for="RazaPerros"></label>
+                        <select name="raza" id="txtRaza"></select>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div class="d-flex justify-content-center">
+            <button type="button" class="btn btn-primary" id="btnAlta">Registrar Perro</button>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- SWAL -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "https://localhost:5001/Mascotas/RazaPerros",
+                type: "GET",
+                success: function (result) {
+                    if (result.ok) {
+                        resultado = result.return;
+                        cargarCombo(resultado);
+                    } else {
+                        swal("error al consultar razas");
+                    }
+                },
+                error: function (error) {
+                    swal("Problemas al conseguir datos");
+                },
+
+            })
+
+            function cargarCombo(datos) {
+                var html = "<option value=''>SELECCIONE</option>";
+                $("#txtRaza").append(html);
+                select = document.getElementById("txtRaza");
+                for (let i = 0; i < datos.length; i++) {
+                    var option = document.createElement('option');
+                    option.value = datos[i].Id;
+                    option.text = datos[i].Nombre;
+                    select.add(option);
+                }
+
+            }
+
+        })
+
+        //Crear perro
+        $("#btnAlta").click(function () {
+            let nombre = $("#txtNombre").val();
+            let edad = $("#txtEdad").val();
+            let peso = $("#txtPeso").val();
+            let nombreDueno = $("#txtNombreDueno").val();
+            let telefono = $("#txtTelefono").val();
+            let raza = $("#txtRaza").val();
+
+            if (nombre === "") {
+                swal("Falta completar el nombre de la mascota")
+            } else if (edad === "" || isNaN(edad)) {
+                swal("Falta completar la edad. Ingrese solo numeros")
+            } else if (peso === "") {
+                swal("Falta completar el peso. Ingrese solo numeros")
+            } else if (nombreDueno === "") {
+                swal("Ingrese el nombre del dueno")
+            } else if (telefono === "") {
+                swal("Falta ingresar el telefono")
+            } else if (raza === "") {
+                swal("Seleccione una raza")
+            } else {
+                swal("Perro cargado con exito")
+                altaPerro(nombre, edad, peso, nombreDueno, telefono, raza);
+            }
+        });
+
+        function altaPerro(nombre, edad, peso, nombreDueno, telefono, raza) {
+            comando = {
+                "nombrePerro": nombre,
+                "idRaza": raza,
+                "edad": edad,
+                "peso": peso,
+                "nombreYapeDueno": nombreDueno,
+                "telefono": telefono
+            };
+
+            $.ajax({
+                url: "https://localhost:5001/Mascotas/CargarPerro",
+                type: "POST",
+                dataType:'JSON',
+                contentType:'application/json',
+                data: JSON.stringify(comando),
+                success: function(result){
+                    if(result.ok){
+                        swal("Alta exitosa");
+                        setTimeout(function(){location.reload();}, 3000);
+                    }
+                    else{
+                        swal("Problemas con el servidor");
+                    }
+                },
+                error:function(error){
+                    swal("Problemas de servidor");
+                },
+            });
+        }
+
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>

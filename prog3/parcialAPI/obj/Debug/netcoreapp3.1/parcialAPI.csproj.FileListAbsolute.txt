@@ -1,0 +1,71 @@
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\bin\Debug\netcoreapp3.1\parcialAPI.exe
+c:\Users\Candelaria\Desktop\prog 3\parcialAPI\bin\Debug\netcoreapp3.1\parcialAPI.deps.json
+c:\Users\Candelaria\Desktop\prog 3\parcialAPI\bin\Debug\netcoreapp3.1\parcialAPI.runtimeconfig.json
+c:\Users\Candelaria\Desktop\prog 3\parcialAPI\bin\Debug\netcoreapp3.1\parcialAPI.runtimeconfig.dev.json
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\bin\Debug\netcoreapp3.1\parcialAPI.dll
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\bin\Debug\netcoreapp3.1\parcialAPI.pdb
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.csprojAssemblyReference.cache
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.AssemblyInfoInputs.cache
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.AssemblyInfo.cs
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.csproj.CoreCompileInputs.cache
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\obj\Debug\netcoreapp3.1\staticwebassets\parcialAPI.StaticWebAssets.Manifest.cache
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\obj\Debug\netcoreapp3.1\staticwebassets\parcialAPI.StaticWebAssets.xml
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.dll
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.pdb
+c:\Users\Candelaria\Desktop\prog 3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.genruntimeconfig.cache
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Candelaria\Desktop\prog 3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\Candelaria\Desktop\prog 3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.csproj.CopyComplete
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\parcialAPI.exe
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\parcialAPI.deps.json
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\parcialAPI.runtimeconfig.json
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\parcialAPI.runtimeconfig.dev.json
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\parcialAPI.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\parcialAPI.pdb
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.csprojAssemblyReference.cache
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.AssemblyInfoInputs.cache
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.AssemblyInfo.cs
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.csproj.CoreCompileInputs.cache
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.csproj.CopyComplete
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\obj\Debug\netcoreapp3.1\staticwebassets\parcialAPI.StaticWebAssets.Manifest.cache
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\obj\Debug\netcoreapp3.1\staticwebassets\parcialAPI.StaticWebAssets.xml
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.dll
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.pdb
+C:\Users\Candelaria\Desktop\prog3\parcialAPI\obj\Debug\netcoreapp3.1\parcialAPI.genruntimeconfig.cache
